@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .slide{
+            width: 80%;
+            height: 500px;
+            background-color: darkcyan;
+            margin-left:20%;
+            margin: 100px auto;
+            overflow: hidden;
+            display: flex;
+        }
+        .slide .slidebox{
+            background-color: chartreuse;
+            height: 100%;
+            margin: 0 30px;
+        }
+    </style>
+    <script src="./slick/slick.css"></script>
+    <script src="./slick/slick-theme.css"></script>
+    <script src="./jquery-3.7.1.min.js"></script>
+    <script src="./slick/slick.min.js"></script>
+    <script>
+        $(function(){
+            $(".slide").slick({
+                dots:true,
+                // 슬라이드가 몇개가 들어가있는지 확인할수있다 
+            });
+
+        });
+    </script>
+</head>
+<body>
+    <div class="slide">
+        <div class="slidebox">
+            <div class="item">
+                <h2>slide1</h2>
+            </div>
+        </div>
+    </div>
+    <div class="slide">
+        <div class="slidebox">
+            <div class="item">
+                <h2>slide1</h2>
+            </div>
+        </div>
+    </div>
+    <div class="slide">
+        <div class="slidebox">
+            <div class="item">
+                <h2>slide2</h2>
+            </div>
+        </div>
+    </div>
+    <div class="slide">
+        <div class="slidebox">
+            <div class="item">
+                <h2>slide3</h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
