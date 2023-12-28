@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@200&display=swap');
+
+/* font-family: 'Noto Sans KR', sans-serif; */
+
+/* font px > rem 으로 바꾸기 
+px > 가변값으로 바꾸기 
+*/
+
+@font-face {
+    font-family: d;
+    src: url(./supersquad/Super\ Squad\ Italic.otf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,li{list-style: none;}
+a{text-decoration: none; color: inherit;}
+img{display:block; max-width: 100%;}
+iframe{display: block;}
+figure{width: fit-content; height: fit-content;}
+
+/* header */
+header{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    margin-bottom: 10%;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+}
+header .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container h1 img{
+    width: 100px;
+}
+header .container h1 span{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    font-size: 0;
+    overflow: hidden;
+}
+header .container ul{
+    display: flex;
+}
+header .container ul li{
+    margin-left: 2vw;
+    color: #fff;
+}
+header .container button{
+    border: none;
+    background-color: inherit;
+    display: none;
+}
+header .container button i{
+    border: none;
+    display: none;
+}
+
+/* // header */
+
+
+/* video*/
+
+#video {
+    position: relative;
+    padding-bottom: 56.25%;
+    margin-bottom: 20%;
+}
+.rap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: -5%;
+}
+#video strong{
+    position: absolute;
+    top: 50%;
+    left:30%;
+    color: #fff;
+    font-size: 5rem;
+    z-index:999;
+    font-family: d;
+}
+/* //video */
+
+
+/* about */
+.about{
+    margin-bottom: 20%;
+}
+.about .logo{
+    filter:grayscale(2);
+}
+.about .logo:hover{
+    filter: grayscale(0);
+}
+.about .bold{
+    font-family: d;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+.about .text{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.1rem;
+}
+/* //about */
+
+
+/* news title */
+
+.newstitlebox{
+    width:12%;
+    height: 50px;
+    margin: auto;
+    background-color: #ff0000;
+    margin-bottom: 5%;
+}
+.newstitlebox h2{
+    text-align: center;
+    color: #fff;
+    font-family: d;
+    font-size: 1.5rem;
+    padding-top: 7px;
+}
+/* //news title */
+
+
+/* news  */
+.news{
+    margin-bottom: 20%;
+}
+.news .bold{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+.news .text{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.1rem;
+}
+.news .newsbox{
+    margin-bottom: 20%;
+}
+
+/* //news */
+
+
+/* preview title */
+.previewtitlebox{
+    width:100%;
+    height: 40px;
+    background-color: #ff0000;
+    margin-bottom: 10%;
+}
+.previewtitlebox h2{
+    text-align: center;
+    color: #fff;
+    font-family: d;
+    font-size: 1.3rem;
+}
+/* //preview title*/
+
+
+/* preview */
+.preview{
+    margin-bottom: 15%;
+}
+.preview .bold{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+.preview .text{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.1rem;
+}
+/* //preview */
+
+
+/* lookbook title */
+.lookbooktitlebox{
+    width: 100%;
+    height: 40px;
+    background-color: #ff0000;
+    margin-bottom: 10%;
+}
+.lookbooktitlebox h2{
+    text-align: center;
+    color: #fff;
+    font-family: d;
+    font-size: 1.2rem;
+}
+/* //lookbook title */
+
+/* lookbook */
+.lookbook{
+    margin-bottom: 30%;
+}
+.lookbook .bold{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+.lookbook .text{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.1rem;
+}
+/* //lookbook */
+
+
+/* stores title*/
+.storestitle{
+    width: 70%;
+    height: 30px;
+    background-color: #ff0000;
+    margin-bottom: 15%;
+}
+.storestitle h2{
+    text-align: center;
+    color: #fff;
+    font-family: d;
+    font-size: 1.3rem;
+}
+/* //stores  title */
+
+/* stores */
+.stores{
+    margin-bottom: 20%;
+}
+.stores .bibi{
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+.stores img{
+    width: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+/* //stores */
+
+/* foooter */
+footer{
+    width: 100%;
+    height: 53vh;
+    background-color: #000;
+}
+footer figure img{
+    margin: 10% 0;
+}
+footer .allbox{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;  
+}
+footer .allbox .menu li{
+    margin-bottom: 30px;
+}
+footer .allbox .menu li:nth-child(1){
+    margin-top: 20px;
+}
+
+footer .allbox .banner{
+    display: flex;
+}
+footer .allbox .banner li{
+    margin: 0 20px;
+}
+footer .allbox img{
+    width: 50px;
+    height: 50px;
+}
+/* //footer */
+
+@media screen and (max-width:1200px) {
+
+    html{
+        font-size: 1rem;
+    }
+    .newstitlebox{
+        width: 25%;
+    }
+    #video strong{
+        font-size: 50px;
+    }
+    footer .allbox .banner{
+        display: flex;
+    }
+    footer .allbox .banner li{
+        margin: 0 18px;
+    }
+    footer .allbox img{
+        width: 40px;
+        height: 40px;
+    }
+    
+}
+@media screen and (max-width:992px) {
+    #video strong{
+        font-size: 4rem;
+    }
+    html{
+        font-size: 0.9rem;
+    }
+    footer .allbox .banner{
+        display: flex;
+    }
+    footer .allbox .banner li{
+        margin: 0 16px;
+    }
+    footer .allbox img{
+        width: 30px;
+        height: 30px;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    #video strong{
+        font-size: 3.5rem;
+    }
+    html{
+        font-size: 0.6rem;
+    }
+    .newstitlebox{
+        width: 20%;
+        height: 40px;
+    }
+    .previewtitlebox{
+        height: 25px;
+    }
+    .lookbooktitlebox{
+        height: 25px;
+    }
+    .storestitle{
+        height: 20px;
+    }
+    footer .allbox .banner{
+        display: flex;
+    }
+    footer .allbox .banner li{
+        margin: 0 14px;
+    }
+    footer .allbox img{
+        width: 20px;
+        height: 20px;
+    }
+}
+@media screen and (max-width:567px) {
+    #video strong{
+        font-size: 3rem;
+    }
+    html{
+        font-size: 0.4rem;
+    }
+    .newstitlebox{
+        width: 18%;
+        height: 28px;
+    }
+    .news .newsbox{
+        margin-bottom: 0;
+    }
+    .previewtitlebox{
+        width: 55%;
+        height: 19px;
+    }
+    .storestitle{
+        width: 10%;
+        height: 15px;
+    }
+    .stores .col-12{
+        height: 180px;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 5%;
+    }
+    .stores img{
+        width: 100%;
+    }
+
+    .lookbooktitlebox{
+        width: 55%;
+        height: 18px;
+    }
+    footer .allbox .banner{
+        display: flex;
+    }
+    footer .allbox .banner li{
+        margin: 0 13px;
+    }
+    footer .allbox img{
+        width: 18px;
+        height: 18px;
+    }
+    
+}
+@media screen and (max-width:450px) {
+    #video strong{
+        font-size: 2.5rem;
+    }
+    html{
+        font-size: 0.4rem;
+    }
+    header nav {
+        display: none;
+    }
+    header .container button{
+        display: block;
+    }
+    header .container button i{
+        display: block;
+    }
+    .about .logo{
+        margin-bottom:30%;
+    }
+    .news .newsbox{
+        margin:0;
+    }
+    .news .hii{
+        margin-bottom: 20%;
+    }
+    .previewtitlebox{
+        width: 70%;
+        height: 18px;
+    }
+    .preview .box{
+        margin-bottom: 20%;
+    }
+    .lookbooktitlebox{
+        width: 70%;
+        height: 16px;
+    }
+    .lookbook .box{
+        margin-bottom: 20%;
+    }
+    .stores .col-12{
+        height: 100px;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 5%;
+    }
+    footer .allbox .banner{
+        margin-top: 70%;
+        display: flex;
+    }
+    footer .allbox .banner li{
+        margin: 0 12px;
+    }
+    footer .allbox img{
+        width: 15px;
+        height: 15px;
+    }
+    
+
+}
